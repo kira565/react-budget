@@ -23,6 +23,16 @@
   color: #61dafb;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-right: 8px;
+}
+.selected_link {
+  border-bottom: 2px solid black
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -30,4 +40,7 @@
   to {
     transform: rotate(360deg);
   }
+}
+table{
+  border-spacing: 10px;
 }
